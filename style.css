@@ -1,0 +1,81 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    http://mkdir.info/twenty-sixteen-child
+ Description:  Twenty Sixteen Child Theme
+ Author:       bmcculley
+ Author URI:   http://mkdir.info
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentysixteen-child
+*/
+
+
+/* less claustrophobic */
+
+body {
+    background: #ffffff;
+}
+
+
+/* change the look of the widgets */
+
+.widget {
+    border-top: none;
+}
+
+.widget .widget-title {
+    border-bottom: 4px solid #1a1a1a;
+}
+
+
+/* move below the entry content
+ * more luxurious feeling
+ */
+
+.entry-content {
+    clear: both;
+    float: none;
+    width: 92% !important;
+}
+
+.entry-footer {
+    clear: both;
+    display: inline-block !important;
+    float: none !important;
+    margin-top: 21px !important;
+    margin-left: 7.6923%;
+    margin-right: 7.6923%;
+    width: 92% !important;
+}
+
+.single .byline,
+.full-size-link,
+.entry-footer .byline .author,
+.entry-footer .byline .author .avatar,
+body:not(.search-results).group-blog .byline,
+body:not(.search-results) .entry-format,
+body:not(.search-results) .cat-links,
+body:not(.search-results) .tags-links,
+body:not(.search-results) article:not(.sticky) .posted-on,
+body:not(.search-results) article:not(.type-page) .comments-link,
+body:not(.search-results) article:not(.type-page) .entry-footer .edit-link {
+    display: inline !important;
+}
+
+.entry-footer > span:not(:last-child):after {
+	content: "\002f";
+	display: inline-block !important;
+	opacity: 0.7;
+	padding: 0 0.538461538em;
+}
+
+.site-footer span:after {
+	content: "\002f";
+	display: inline-block;
+	font-family: Montserrat, sans-serif;
+	opacity: 0.7;
+	padding: 0 0.307692308em 0 0.538461538em;
+}
